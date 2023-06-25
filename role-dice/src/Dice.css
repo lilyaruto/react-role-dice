@@ -1,3 +1,16 @@
 .fas {
     color: rgb(123, 56, 211);
 }
+
+.wiggle-dice {
+    animation: wiggle;
+    animation-duration: 1s;
+}
+
+@keyframes wiggle {
+    0% {transform: rotate(10deg);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(20deg);}
+    75% {transform: rotate(-5deg);}
+    100% {transform: rotate(0deg);}
+  }
